@@ -6,7 +6,8 @@ def get_table_name(path: str) -> str:
     Function takes directory path as argument 
     and returns a table name as file name stripping off extension
     '''
-    return path.split('/')[7].split('.')[0]
+    sep_count = path.count('/')
+    return path.split('/')[sep_count].split('.')[0]
 
 def create_dbs(database: str, user: str, password: str, host: str, port: str, source_dir: str):
     '''
