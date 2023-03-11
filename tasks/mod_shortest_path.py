@@ -47,5 +47,7 @@ def shortest_route(ls: list) -> list:
     return shortest_route(ls)
 
 if __name__ == "__main__":
+    
     path = ["NORTH","SOUTH","SOUTH","EAST","WEST","NORTH","WEST", 'NORTH','SOUTH']
+    
     print(shortest_route(ls=path))
