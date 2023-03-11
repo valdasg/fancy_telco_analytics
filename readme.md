@@ -32,12 +32,12 @@ and install psycopg2
 ```
 pip install psycopg2-binary --force-reinstall --no-cache-dir
 ```
-Enter your credentials of your PostgreSQL instance while executing [main](./utils.py) file.
 
 Set you password and source directory as enviromnetal varialbles:
 ```
 export PGPASSWORD=<youur_postgress_password>
 export SOURCEDIR=<your_source_directory>
 ```
+Enter your credentials of your PostgreSQL instance while executing [main](./utils.py) file.
 
 Run [SQL script](./sql_scripts.sql) of your choice to analize dada.
