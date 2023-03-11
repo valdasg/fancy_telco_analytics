@@ -24,11 +24,11 @@ git clone https://github.com/valdasg/fancy_telco_analytics
 ```
 Script uses psycopg2 external library, install it before running it by typing following in terminal.
 
-While in directory create virtual environment
+While in directory create virtual environment:
 ```
 python3 -m venn .venv
 ```
-and install psycopg2
+Install psycopg2:
 ```
 pip install psycopg2-binary --force-reinstall --no-cache-dir
 ```
