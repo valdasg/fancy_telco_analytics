@@ -1,4 +1,4 @@
-# Sample analytics pipeline for Fancy Telco Co.
+# Simple analytics pipeline for Fancy Telco Co.
 
 ### Decsription
 
@@ -32,6 +32,6 @@ and install psycopg2
 ```
 pip install psycopg2-binary --force-reinstall --no-cache-dir
 ```
-Enter your credentials of your PostgreSQL instance while executing [mail](./utils.py) file.
+Enter your credentials of your PostgreSQL instance while executing [main](./utils.py) file.
 
-Run [SQL script](./sql_scripts.sql) of your choice to analise dada.
+Run [SQL script](./sql_scripts.sql) of your choice to analize dada.
