@@ -3,7 +3,8 @@ import psycopg2, glob
 
 def get_table_name(path: str) -> str:
     '''
-    Function takes directory path as argument 
+    Function takes directory path as argument in format of:
+    '/Documents/Users/User/..../*'
     and returns a table name as file name stripping off extension
     '''
     sep_count = path.count('/')
